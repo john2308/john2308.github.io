@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+	<head> 
+		<title>Forms Problem 2 Assignment</title>
+		
+		<style>
+			body {
+				text-align: center;
+			}
+		</style>
+		
+		<script>
+			function getColor() {
+				changeColor = document.getElementById('color').value;
+				document.bgColor = changeColor;
+			}
+		</script>
+	</head>
+	
+	<body>
+		<form>
+			Enter color name: 
+			<input type = 'text' id = 'color' value = ''>
+			<input type = "button" value = 'Change Color' onclick = 'getColor()'>
+		</form>
+	</body>
+</html>
